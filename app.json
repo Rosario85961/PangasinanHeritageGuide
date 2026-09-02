@@ -2,19 +2,23 @@
   "expo": {
     "name": "Pangasinan Heritage Guide",
     "slug": "pangasinan-heritage-guide",
+    "owner": "devrosarios-team",
     "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "scheme": "pangasinanheritageguide",
+
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#F8F5EF"
     },
+
     "assetBundlePatterns": [
       "**/*"
     ],
+
     "android": {
       "package": "com.pangasinan.heritageguide",
       "adaptiveIcon": {
@@ -22,15 +26,19 @@
         "backgroundColor": "#0D3B66"
       }
     },
+
     "web": {
       "favicon": "./assets/favicon.png"
     },
+
     "plugins": [
       "expo-router"
     ],
+
     "experiments": {
       "typedRoutes": true
     },
+
     "extra": {
       "router": {
         "origin": false
